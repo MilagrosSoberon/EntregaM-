@@ -1,0 +1,226 @@
+body{
+    font-family: 'Abyssinica SIL', serif;  
+}
+
+header{
+background-color: #240c13;
+    
+
+    padding:10px 0;
+   
+}
+
+header div.holder{
+    display: flex;
+
+}
+header img{
+    width: 960px;
+    height: 250px;
+    
+}
+
+h2{
+    color: #791432;
+    font-weight: 400;
+}
+
+header h1{
+    font-weight: 400;
+    font-weight: lighter;
+    font-size: 60px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    left: 90px;
+    margin: 0;
+    color: white;
+    font-family: 'Rubik Puddles', cursive;
+    text-shadow: -20px 10px 30px white;
+}
+
+header img{
+    
+    border-radius: 50%;
+    width: 120px;
+    height: 105px;
+    margin: 0;
+    box-shadow: 3px 3px 7px yellowgreen;
+  
+
+}
+
+nav{
+    background-color: transparent;
+    height: 38px;
+    top: 87px;    
+}
+
+nav ul{
+    
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul li{
+    flex-grow: 1;
+    font-size: 22px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+    text-align: center;
+    transition: all 0.1s;
+    border-radius: 5px;
+   
+}
+
+nav ul li a.activo{
+   padding: 7px;
+   border-radius: 5px;
+}
+
+nav ul li a.activo:hover{
+    padding: 7px;
+    border-radius: 5px;
+}
+
+nav ul li a.index{
+    background-color: #e71fab;
+}
+nav ul li a.index:hover{
+    background-color: #cd1a97;
+    box-shadow: #791432;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+nav ul li a.gatos{
+    background-color: #7ee822;
+}
+
+nav ul li a.gatos:hover{
+    background-color: #75d521;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+nav ul li a.perros{
+    background-color: #28e6d3;
+}
+
+nav ul li a.perros:hover{
+    background-color: #23c6b6;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+nav ul li a.contacto{
+    background-color: #ec3440;
+
+}
+
+nav ul li a.contacto:hover{
+    background-color: #cd2d38;
+
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.slider-frame{
+    margin-top: 40px;
+    overflow: hidden;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+
+.slider-frame ul{
+    display: flex;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    box-shadow: 2px 2px 10px #240c13;
+}
+
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    30%{margin-left: 0%;}
+
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+    
+}
+
+.medios{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #090808;
+    border: 2px solid #0d0b0c; 
+    opacity: 0.8;
+}
+
+.medios i{
+    margin: 3px;
+}
+
+.envio{
+    width: 33%;  
+}
+.tarjeta{
+    width: 33%;
+    border-left: 2px solid #791432; 
+}
+.efectivo{
+    width: 33%;
+    border-left: 2px solid #791432; 
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
+}
+
+footer p{
+    color: whitesmoke;
+}
+.diseño{
+    margin-top: 0;
+}
+
+.descuento{
+    background-color: yellow;
+    margin: 0;
+    padding: 6px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:2000;
+    color: #240c13;
+    
+}
