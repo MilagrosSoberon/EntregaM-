@@ -1,13 +1,11 @@
 body{
     font-family: 'Abyssinica SIL', serif;  
+    background-color: rgb(249, 249, 231);
 }
 
 header{
 background-color: #240c13;
-    
-
     padding:10px 0;
-   
 }
 
 header div.holder{
@@ -141,7 +139,7 @@ nav ul li a.contacto:hover{
 }
 
 .slider-frame{
-    margin-top: 40px;
+    margin-top: 10px;
     overflow: hidden;
     animation: slide 12s infinite alternate ease-in-out;
 }
