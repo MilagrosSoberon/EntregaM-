@@ -306,19 +306,19 @@ footer p{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    box-sizing: border-box;
     
 }
 .alimento{
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 18%;
+    width: 22%;
     text-align: center;
     padding: 8px;
     box-sizing: border-box;
     background-color: white;
     box-shadow: 2px 2px 5px black;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .alimento h5,
 .alimento h6{
@@ -339,9 +339,10 @@ footer p{
     
 }
 
-.perro h2{
+.perro h2,
+.gatos h2{
     font-size: 40px;
-    text-align: center;
     text-shadow: 1px 1px 2px black;
-    margin: 10px 0;
+    margin-top: 20px;
+    margin-left: 10px;
 } 
