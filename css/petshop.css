@@ -15,7 +15,7 @@ header div.holder{
 header img{
     width: 960px;
     height: 250px;
-    
+
 }
 
 h2{
@@ -120,12 +120,12 @@ nav ul li a.perros:hover{
     border-radius: 5px;
 }
 
-nav ul li a.contacto{
+nav ul li a.contactos{
     background-color: #ec3440;
 
 }
 
-nav ul li a.contacto:hover{
+nav ul li a.contactos:hover{
     background-color: #cd2d38;
 
     padding: 7px;
@@ -222,3 +222,126 @@ footer p{
     color: #240c13;
     
 }
+
+
+
+.contacto {
+    display: flex;
+    gap: 25px;
+}
+
+.contacto section{
+    width: 100%;
+}
+
+.contactanos p{
+    margin-top: 40px;
+}
+.contactanos h2{
+    text-decoration: underline  rgb(119, 14, 14); 
+    margin-left: 370px;
+}
+.contacto h2{
+    font-size: 30px;
+}
+.datos p{
+    margin-top: 99px;
+}
+.datos ul{
+    margin-top: 50px;
+    
+}
+.datos ul li a{
+    font-size: 15px;
+    text-decoration: none;
+}
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.formulario p input,
+.formulario p textarea{
+    background: #ddd;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 100px;
+}
+
+.formulario p:nth-child(4){
+    align-items:start;
+}
+
+.formulario input[type="submit"]{
+    background-color: black;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    position: relative;
+    left: 80px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #e1a8a8;
+    border: 1px solid black;
+}
+
+.alimentos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.alimento{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    
+}
+.alimento h5,
+.alimento h6{
+    text-align: center;
+}
+.alimento h4{
+    color: red;
+    text-decoration: underline red;
+}
+.alimento h5{
+    font-size: 15px;
+    margin:0 ;
+}
+.alimento img{
+   
+    height: 200px;
+    width: 130px;
+    
+}
+
+.perro h2{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    margin: 10px 0;
+} 
