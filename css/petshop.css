@@ -305,8 +305,6 @@ footer p{
 .alimentos{
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    
 }
 .alimento{
     border: 1px solid #ddd;
@@ -320,16 +318,18 @@ footer p{
     box-shadow: 2px 2px 5px black;
     cursor: pointer; 
     transition: all 0.2s;
-    background-color: yellow;
+    position: relative;
 }
 
 
 .alimento:hover{
-   padding:  14px ;
+   width: 24%;
    box-shadow: 2px 2px 8px black;
+   box-sizing: border-box;
 }
 
-.alimento h5{
+.alimento h5,
+.alimento h6{
     text-align: center;
 }
 
