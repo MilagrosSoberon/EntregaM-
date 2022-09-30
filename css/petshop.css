@@ -324,7 +324,7 @@ footer p{
 
 .alimento:hover{
    width: 24%;
-   box-shadow: 2px 2px 8px black;
+   box-shadow: 2px 2px 12px black;
    box-sizing: border-box;
 }
 
