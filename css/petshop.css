@@ -141,11 +141,14 @@ nav ul li a.contactos:hover{
 .slider-frame{
     margin-top: 10px;
     overflow: hidden;
-    animation: slide 12s infinite alternate ease-in-out;
+    
 }
 
 .slider-frame ul{
     display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 12s infinite alternate ease-in-out;
 }
 
 .slider-frame li{
@@ -155,6 +158,7 @@ nav ul li a.contactos:hover{
 
 .slider-frame img{
     box-shadow: 2px 2px 10px #240c13;
+    width: 100%;
 }
 
 
@@ -179,10 +183,17 @@ nav ul li a.contactos:hover{
     color: #090808;
     border: 2px solid #0d0b0c; 
     opacity: 0.8;
+    
 }
 
 .medios i{
     margin: 3px;
+    
+}
+
+.medios img{
+    width: 960px;
+    height: 250px;
 }
 
 .envio{
